@@ -47,3 +47,13 @@ input[type="submit"] {
 input[type="submit"]:hover {
     opacity: 70%;
 }
+
+@media (max-width: 768px) {
+    form {
+        width: 90%; /* Adjusted for even smaller screens */
+    }
+
+    h1 {
+        margin: 30px 0; /* Further adjusted for smaller screens */
+    }
+}
