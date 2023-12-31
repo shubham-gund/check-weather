@@ -1,0 +1,49 @@
+body {
+    background-image:linear-gradient(navy,purple); 
+    background-size: cover;
+    color: rgb(239, 239, 239); /* Text color */
+    font-family: 'Tangerine', serif;
+    text-shadow: 2px 2px 2px #0a0b0a;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+form {
+    background-image: linear-gradient(purple,navy); /* Darker background for the form */
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    box-sizing: border-box;
+    box-shadow: 8px 8px 30px rgb(16, 15, 15);
+    margin: auto;
+    
+}
+
+h1 {
+    display: grid;
+    text-align: center;
+    text-shadow: 6px 6px 10px black;
+    margin: 50px 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+input[type="text"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+input[type="submit"] {
+    background-color:rgb(0,0,0); /* Button color */
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 1px 2px 10px rgb(0, 0, 0);
+}
+
+input[type="submit"]:hover {
+    opacity: 70%;
+}
